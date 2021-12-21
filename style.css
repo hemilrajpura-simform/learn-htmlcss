@@ -25,3 +25,19 @@ div{
     cursor: pointer;
     text-decoration: none;
 }
+.flexbox-paging{
+    background-color: #ef5366;
+    display: flex;
+}
+.flexbox-paging > div{
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+.flexbox-paging > p{
+color: white;
+font-size: 20px;
+right: 12px;
+
+position: absolute;
+}
