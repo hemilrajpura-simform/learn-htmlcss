@@ -8,5 +8,20 @@ body{
 
 }
 tr:nth-child(even){
-    color: tomato;
+    color:#ef5366;
+}
+div{
+    margin:50px 0;  
+}
+.btn{
+    padding: 10px 20px;
+    border: 1px solid#ef5366;
+    color:black; 
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #ef5366;
+    color:white; 
+    cursor: pointer;
+    text-decoration: none;
 }
