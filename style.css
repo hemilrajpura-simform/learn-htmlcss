@@ -41,6 +41,34 @@ font-size: 20px;
 right: 12px;
 position: absolute;
 }
+@media (max-width: 600px) {
+    .flexbox-paging{
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    th,td{
+        padding: 5px;         
+    }
+    h1{
+        font-size: 0.5;
+    }
+    .btn{
+        padding: 5px 10px; }
+  }
+  @media (max-width: 900px) {
+  .flexbox-paging{
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    th,td{
+        padding: 7px;         
+    }
+    h1{
+        font-size: 0.5;
+    }
+    .btn{
+        padding: 7px 14px; }
+  }
 
 .animation{
 
