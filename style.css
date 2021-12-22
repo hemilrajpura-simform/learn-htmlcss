@@ -28,16 +28,45 @@ div{
 .flexbox-paging{
     background-color: #ef5366;
     display: flex;
+    justify-content: center;
 }
 .flexbox-paging > div{
     margin: 5px;
     padding: 10px;
-    background-color: white;
+    background-color: white;    
 }
 .flexbox-paging > p{
 color: white;
 font-size: 20px;
 right: 12px;
-
 position: absolute;
 }
+
+.animation{
+
+
+     animation-duration: 2s;
+     animation-delay: 0.5s;
+     position:relative;
+      animation-iteration-count: infinite;
+      font-weight:bold;
+       /*color:white;
+       */ text-align:center;
+   justify-content: center;
+  
+   }
+
+#animation1{  animation-name: example1;
+   }
+   #animation2{  animation-name: example2;
+   }
+
+   @keyframes example1 {
+     0%{left:0px; opacity: 1.0; }     
+     100%{ left:-200px; opacity: 0.5; border-radius: 50px; }
+   }
+
+   @keyframes example2 {
+    0%{right:0px; opacity: 1.0; }     
+    100%{ right:-100px; opacity: 0.5; border-radius: 50px; }    
+  }
