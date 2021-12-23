@@ -96,26 +96,22 @@ div {
 }
 
 .grid-cont{
+    color: white;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 10px;
+    background-color:  #6b2029;
 }   
 .grid-cont h2{ text-align: center;}
 .grid-cont > div{
 padding: 10px 0;
 background-color: #ef5366;
 text-align: center;
-color: white;
 }
+
 .item1{
     grid-column: 1/3;
 }
-
-
-
-
-
-
 
 @keyframes example1 {
   0% {
